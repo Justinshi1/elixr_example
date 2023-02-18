@@ -14,6 +14,10 @@ defmodule ElixrExample.Application do
       ElixrExampleWeb.Telemetry,
       # Start the PubSub system
       {Phoenix.PubSub, name: ElixrExample.PubSub},
+      {GenstageExample.Producer, 0},
+      {GenstageExample.ProducerConsumer, []},
+      {GenstageExample.Consumer, []},
+
       # Start the Endpoint (http/https)
       ElixrExampleWeb.Endpoint
       # Start a worker by calling: ElixrExample.Worker.start_link(arg)

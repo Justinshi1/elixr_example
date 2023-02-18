@@ -4,7 +4,7 @@ import Config
 config :elixr_example, ElixrExample.Repo,
   username: "postgres",
   password: "postgres",
-  hostname: "localhost",
+  hostname: "postgres",
   database: "elixr_example_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
