@@ -32,3 +32,6 @@ elixr_example-*.tar
 npm-debug.log
 /assets/node_modules/
 
+
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
