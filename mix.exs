@@ -33,6 +33,9 @@ defmodule ElixrExample.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+
+      {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
+      {:crawly, "~> 0.14.0"},
       {:gen_stage, "~> 1.0.0"},
       {:phoenix, "~> 1.6.15"},
       {:phoenix_ecto, "~> 4.4"},
